@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* nav 레이아웃 */
+nav {height: 40px; overflow: hidden; background-color: #1C192B;}
+nav #title {float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 a {color: #DCDFE0; height: 30px; line-height: 30px; font-size: 30px;}
+nav #title h1 a:hover {color: #DCDFE0;}
+nav #menu {float: left; height: 40px;}
+nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
+nav #menu a:hover {color: #DCDFE0;}
+
+/* 시즌표 */
+#season_table {margin: 30px 0 0 0;}
+#season_table table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B; border-bottom-width: 2px;}
+#season_table table th {position: relative; background-color: #1C192B; border-bottom-width: 2px; border: 0;}
+#season_table table th img {height: 75px; padding: 0 0 30px;}
+#season_table table th .text_container {width: 100%; position: absolute; bottom: 10px; right: 0; text-align: center;}
+#season_table table th .text_container span {color: #DCDFE0;}
+#season_table table tr {}
+#season_table table tr td {border: 0;}
+#season_table table tr td a {color: #999;}
+#season_table table tr td a:hover {color: #000;}
+#season_table #etc {border-top: 0; border-bottom-width: 3px;}
+#season_table #etc tr td {padding: 6px 9px;}
+#season_table #etc tr td img {height: 30px; vertical-align: middle;}
+
+/* 우승 */
+#winner {margin: 30px 0 0 0;}
+#winner h2 {font-size: 30px; margin-bottom: 10px;}
+#winner table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
+#winner table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
+#winner table tr td {border-color: #1C192B;}
+#winner table tr td .img_container {margin: 0 auto; width: 230px; border-radius: 5px;}
+#winner table tr td .img_container:hover {background-color: #dfdfdf;}
+#winner table tr td .img_container a {}
+#winner table tr td .img_container a img {padding: 10px 0; width: 200px;}
+#winner table tr td .position {width: 40px;}
+#winner table tr td .final_mvp {}
+#winner table tr td .final_mvp a {font-size: 15px;}
+#winner table tr td .pots {}
+#winner table tr td .pots a {font-size: 15px;}
+
+/* 정규리그 */
+#regular_league {margin: 30px 0 0 0;}
+#regular_league h2 {font-size: 30px; margin-bottom: 10px;}
+#regular_league table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
+#regular_league table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
+#regular_league table tr td {padding: 3px; border: 0px; height: 60px;}
+#regular_league table tr td img {height: 35px;}
+#regular_league #sc_exp {margin-top: 10px; text-align: right; font-size: 14px;}
+#regular_league #sc_exp .sc_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* 포스트시즌 */
+#post_season {margin: 30px 0 0 0;}
+#post_season h2 {font-size: 30px; margin-bottom: 10px;}
+#post_season table {width: 100%; margin: 0 auto; background: #fff;}
+#post_season table th {background-color: #1C192B; color: #DCDFE0; border: 0px; border: 2px solid #1C192B;}
+#post_season table tr td {position: relative; height: 70px; border: 0; padding: 0 9px; border-bottom: 2px solid #1C192B;}
+#post_season table tr td img {height: 40px; vertical-align: middle;}
+#post_season table tr td .ps_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
+#post_season table tr td .ps_team {font-size: 15px;}
+#post_season table tr td .ps_score {font-size: 20px;}
+
+/* POG 순위 */
+#pog_ranking {margin: 30px 0 30px 0;}
+#pog_ranking h2 {font-size: 30px; margin-bottom: 10px;}
+#pog_ranking table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
+#pog_ranking table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
+#pog_ranking table tr td {padding: 3px; border: 0px; height: 60px;}
+#pog_ranking table tr td a {}
+#pog_ranking table tr td img {height: 35px;}
+#pog_ranking #pr_exp {margin-top: 10px; text-align: right; font-size: 14px;}
+#pog_ranking #pr_exp .pr_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* footer */
+footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
+footer address {padding: 15px 0;}
+footer p {padding: 0 0 10px 0;}

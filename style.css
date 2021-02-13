@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+/* nav */
+nav {height: 40px; overflow: hidden; background-color: #1C192B;}
+nav #title {float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 a {color: #DCDFE0; height: 30px; line-height: 30px; font-size: 30px;}
+nav #title h1 a:hover {color: #DCDFE0;}
+nav #menu {float: left; height: 40px;}
+nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
+nav #menu a:hover {color: #DCDFE0;}
+
+/* 버전 */
+#version {padding: 10px 0 0 0; text-align: right; color: #4a4a4a;}
+
+/* 팀페이지 */
+#teampage {margin: 10px 0 0 0;}
+#teampage h2 {font-size: 30px; margin-bottom: 10px;}
+#teampage table {width: 100%; overflow: hidden; border-collapse: collapse; border-spacing: 0; border-radius: 10px; background: #fff;}
+#teampage table tr {}
+#teampage table .tp_teamname {font-size: 15px;}
+#teampage table .tp_teamname td:hover {background: none;}
+#teampage table tr td {width: 20%; margin: 5px; border-radius: 10px; border-color: #fff;}
+#teampage table tr td:hover {background-color: #ddd;}
+#teampage table tr td a {}
+#teampage table tr td a img {height: 60px;}
+
+/* 일정 */
+#schedule {margin: 30px 0 0 0;}
+#schedule h2 {font-size: 30px; margin-bottom: 10px;}
+
+/* 순위 */
+#ranking {margin: 30px 0 30px 0;}
+#ranking h2 {font-size: 30px; margin-bottom: 10px;}
+#ranking h3 {margin-bottom: 5px;}
+#ranking table {width: 100%; margin: 0 auto; border: 3px solid #1C192B;}
+#ranking table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
+#ranking table tr {}
+#ranking table tr td {padding: 3px; border: 0px;}
+#ranking table tr td img {width: 40px;}
+#ranking #sc_exp {margin-top: 10px; text-align: right; font-size: 14px;}
+#ranking #sc_exp .sc_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* footer */
+footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
+footer address {padding: 15px 0;}
+footer p {padding: 0 0 10px 0;}
