@@ -60,7 +60,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 플레이인 스테이지 */
-#playins {overflow: hidden; margin: 30px 0 0 0;}
+#playins {overflow: hidden; margin: 30px 0 30px 0;}
 #playins h2 {font-size: 30px; margin-bottom: 10px;}
 #playins table {float: left; width: 47.5%; margin-bottom: 10px; background: #fff; border: 3px solid #1C192B; border-bottom-width: 2px;}
 #playins table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
