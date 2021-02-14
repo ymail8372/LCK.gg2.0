@@ -40,7 +40,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner table tr td .pots {}
 #winner table tr td .pots a {font-size: 15px;}
 
-/* 정규리그 */
+/* 정규시즌 */
 #regular_league {margin: 30px 0 0 0;}
 #regular_league h2 {font-size: 30px; margin-bottom: 10px;}
 #regular_league table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
