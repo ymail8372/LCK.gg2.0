@@ -1,10 +1,10 @@
 @charset "UTF-8";
 
-/* nav 레이아웃 */
+/* nav */
 nav {height: 40px; overflow: hidden; background-color: #1C192B;}
-nav #title {float: left; width: 200px; height: 40px; text-align: center;}
-nav #title h1 a {color: #DCDFE0; height: 30px; line-height: 30px; font-size: 30px;}
-nav #title h1 a:hover {color: #DCDFE0;}
+nav #title {display: table; float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 {display: table-cell; vertical-align: middle;}
+nav #title h1 a {color: #DCDFE0; font-size: 26px;}
 nav #menu {float: left; height: 40px;}
 nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
 nav #menu a:hover {color: #DCDFE0;}
