@@ -30,10 +30,10 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
 #winner table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
 #winner table tr td {border-color: #1C192B;}
-#winner table tr td .img_container {margin: 0 auto; width: 230px; border-radius: 5px;}
+#winner table tr td .img_container {margin: 0 auto; width: 400px; border-radius: 5px;}
 #winner table tr td .img_container:hover {background-color: #dfdfdf;}
 #winner table tr td .img_container a {}
-#winner table tr td .img_container a img {padding: 10px 0; width: 200px;}
+#winner table tr td .img_container a img {padding: 10px 0; height: 130px;}
 #winner table tr td .position {width: 40px;}
 #winner table tr td .final_mvp {}
 #winner table tr td .final_mvp a {font-size: 15px;}
