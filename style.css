@@ -34,7 +34,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #ranking h3 {margin-bottom: 5px;}
 #ranking table {width: 100%; margin: 0 auto; border: 3px solid #1C192B;}
 #ranking table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
-#ranking table tr td {padding: 3px; border: 0px; height: 60px;}
+#ranking table tr td {height: 60px;}
 #ranking table tr td img {height: 35px;}
 #ranking #sc_exp {margin-top: 10px; text-align: right; font-size: 14px;}
 #ranking #sc_exp .sc_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}

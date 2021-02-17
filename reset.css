@@ -4,7 +4,7 @@
 body, div, ul, li, dl, dt, ol, h1, h2, h3, h4, h5, h6, input, fieldset, legend, p, select, table, th, td, tr, textarea, button, form {margin: 0; padding: 0;}
 
 /* a 링크 초기화 */
-a {color: #222; text-decoration: none;}
+a {color: #373a3c; text-decoration: none;}
 a:hover {color: none;}
 
 /* 폰트 초기화 */
@@ -24,7 +24,9 @@ address {
 
 /* table 초기화 */
 table {
-	text-align: center; border-collapse: collapse; border-spacing: 0; background: #fff;}
+	text-align: center; border-collapse: collapse; background: #fff; border: 3px solid #1C192B;}
 
 /* 표 효과 */
-th, td {border: 1px solid #aaa; border-collapse: separate; text-align: center; padding: 9px;}
+th, td {padding: 3px; border: 0px; text-align: center;}
+th {color: #fff; background-color: #1C192B;}
+td {color: #373a3c;}
