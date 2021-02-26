@@ -15,7 +15,7 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 팀페이지 */
 #teampage {margin: 10px 0 0 0;}
 #teampage h2 {font-size: 30px; margin-bottom: 10px;}
-#teampage table {width: 100%; overflow: hidden; border-collapse: collapse; border-spacing: 0; border-radius: 10px; background: #fff;}
+#teampage table {width: 100%; overflow: hidden; border-radius: 10px; background: #fff;}
 #teampage table tr {}
 #teampage table .tp_teamname {font-size: 15px;}
 #teampage table .tp_teamname td:hover {background: none;}
