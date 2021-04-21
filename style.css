@@ -19,7 +19,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #teampage table tr {}
 #teampage table .tp_teamname {font-size: 15px;}
 #teampage table .tp_teamname td:hover {background: none;}
-#teampage table tr td {width: 20%; margin: 5px; border-radius: 10px; border-color: #fff;}
+#teampage table tr td {width: 20%; padding: 10px; border-radius: 10px; border-color: #fff;}
 #teampage table tr td:hover {background-color: #ddd;}
 #teampage table tr td a {}
 #teampage table tr td a img {height: 60px;}
