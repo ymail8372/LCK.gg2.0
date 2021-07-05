@@ -20,14 +20,14 @@ nav #menu a:hover {color: #DCDFE0;}
 #season_table .table1 th {padding: 9px; background-color: #1C192B;}
 #season_table .table1 th img {height: 50px;}
 #season_table .table1 th .name_container {margin: 10px 0 0 0;}
-#season_table .table1 tr td {padding: 9px;}
+#season_table .table1 tr td {padding: 5px;}
 
 #season_table .table2 {width: 100%;}
 #season_table .table2 th {padding: 3px; width: 200px; overflow: hidden; height: 35px;}
 #season_table .table2 th .img_container {height: 100%; line-height: 35px; float: left; padding: 0 10px;}
 #season_table .table2 th .img_container img {vertical-align: middle; height: 30px;}
 #season_table .table2 th .name_container {height: 100%; line-height: 35px; float: left;}
-#season_table .table2 tr td {padding: 9px; width: 70px;}
+#season_table .table2 tr td {padding: 5px; width: 70px;}
 #season_table .table2 tr .blank {width: auto;}
 
 /* 우승 */
