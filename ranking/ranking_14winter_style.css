@@ -21,7 +21,6 @@ nav #menu a:hover {color: #DCDFE0;}
 #season_table .table1 th img {height: 50px;}
 #season_table .table1 th .name_container {margin: 10px 0 0 0;}
 #season_table .table1 tr td {padding: 5px;}
-#season_table .table1 tr td {padding: 5px;}
 
 #season_table .table2 {width: 100%;}
 #season_table .table2 th {padding: 3px; width: 200px; overflow: hidden; height: 35px;}
@@ -35,7 +34,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner {margin: 30px 0 0 0;}
 #winner h2 {font-size: 30px; margin-bottom: 10px;}
 #winner table {width: 100%;}
-#winner table td { padding: 9px;}
+#winner table td {padding: 9px;}
 
 #winner .table1 {}
 #winner .table1 .title th {}
@@ -43,9 +42,9 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table1 tr td {text-align: left;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
-#winner .table1 tr .img .img_container {margin: 0 auto; width: 200px; border-radius: 10px;}
+#winner .table1 tr .img .img_container {margin: 0 auto; width: 300px; border-radius: 10px;}
 #winner .table1 tr .img .img_container:hover {background-color: #ddd;}
-#winner .table1 tr .img .img_container a img {height: 100px;}
+#winner .table1 tr .img .img_container a img {height: 120px;}
 #winner .table1 tr .blank {width: auto;}
 
 #winner .table2 {}
@@ -54,35 +53,40 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table2 tr td {width: 20%;}
 
 #winner .table3 {}
-#winner .table3 tr th {width: 50%;}
+#winner .table3 tr th {}
 #winner .table3 tr td {}
 
-/* 정규시즌 */
-#regular_season {margin: 30px 0 0 0;}
-#regular_season h2 {font-size: 30px; margin-bottom: 10px;}
-#regular_season table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
-#regular_season table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
-#regular_season table th:nth-child(7) {border-right: 1px solid #777;}
-#regular_season table tr td {padding: 3px; border: 0px; height: 60px;}
-#regular_season table tr .team {width: 12%;}
-#regular_season table tr .score {width: 6%;}
-#regular_season table tr td:nth-child(9) {border-left: 2px solid #1C192B;}
-#regular_season table tr td img {height: 35px;}
-#regular_season #reference {margin-top: 10px; text-align: right; font-size: 14px;}
-#regular_season #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+/* 토너먼트 */
+#tournament {overflow: hidden; margin: 30px 0 0 0;}
+#tournament h2 {font-size: 30px; margin-bottom: 10px;}
+#tournament .blanc {width: 2.5%; height: 100%; float: left;}
+#tournament table {float: left; width: 30%; margin: 0 auto; background: #fff; border: 0px;}
+#tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
+#tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
+#tournament table tr .left {width: 100px; border-left: 2px solid #1C192B;}
+#tournament table tr .middle {width: 150px;}
+#tournament table tr .right {border-right: 2px solid #1C192B;}
+#tournament table .win {background-color: #fff;}
+#tournament table .lose {background-color: #ddd;}
+#tournament table .blanc {background-color: #F7F7F7; border: 0;}
+#tournament table .win .tm_result {background-color: #489CFF;}
+#tournament table .lose .tm_result {background-color: #BDBDBD;}
+#tournament table tr td {position: relative; padding: 0; border: 0; height: 60px;}
+#tournament table tr td img {height: 50px;}
+#tournament table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
+#tournament table tr td .tm_team {font-size: 15px;}
+#tournament table tr td .tm_score {font-size: 20px;}
+#tournament #third_place_match {margin-top: 80px;}
 
-/* 포스트시즌 */
-#post_season {margin: 30px 0 0 0; overflow: hidden;}
-#post_season h2 {font-size: 30px; margin-bottom: 10px;}
-#post_season .space {float: left; width: 4%; height: 186px; text-align: center; line-height: 186px;}
-#post_season table {float: left; width: 22%; text-align: center;}
-#post_season table tr td {padding: 9px;}
-#post_season table .color_td {padding: 0;}
-#post_season table .lose .color_td .color {width: 5px; height: 63px; background-color: #BDBDBD;}
-#post_season table .win .color_td .color {width: 5px; height: 63px; background-color: #489CFF;}
-#post_season table tr td img {height: 40px;}
-#post_season table .lose td {background-color: #ddd;}
-#post_season table tr .score {font-size: 20px;}
+/* 그룹 스테이지 */
+#groups {margin: 30px 0 0 0;}
+#groups h2 {font-size: 30px; margin-bottom: 10px;}
+#groups table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
+#groups table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
+#groups table tr td {padding: 3px; border: 0px; height: 60px;}
+#groups table tr td img {height: 50px;}
+#groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
+#groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* MVP 순위 */
 #MVP_ranking {margin: 30px 0 30px 0;}
@@ -95,7 +99,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #MVP_ranking table tr .player {width: 16%;}
 #MVP_ranking table tr .score {width: 6%;}
 #MVP_ranking table tr td:nth-child(8) {border-left: 2px solid #1C192B;}
-#MVP_ranking table tr td img {height: 35px;}
+#MVP_ranking table tr td img {height: 40px;}
 #MVP_ranking #reference {margin-top: 10px; text-align: right; font-size: 14px;}
 #MVP_ranking #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 

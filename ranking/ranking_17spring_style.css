@@ -51,7 +51,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table2 {}
 #winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
-#winner .table2 tr td {}
+#winner .table2 tr td {width: 20%;}
 
 #winner .table3 {}
 #winner .table3 tr th {width: 50%;}
