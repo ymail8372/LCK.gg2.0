@@ -79,13 +79,32 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 30px 0;}
+#groups {overflow: hidden; margin: 30px 0 30px 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
-#groups table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
-#groups table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
-#groups table tr td {padding: 3px; border: 0px; height: 60px;}
-#groups table tr td img {height: 50px;}
-#groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
+#groups .ranking {margin-left: 3%; width: 32%; float: left;}
+#groups .ranking th {background-color: #1C192B; color: #DCDFE0; border: 0;}
+#groups .ranking tr td {padding: 3px; border: 0px; height: 80px;}
+#groups .ranking tr td img {height: 70px;}
+#groups #graph {float: left; width: 100%; margin-bottom: 0px;}
+#groups #graph table {float: left; width: 100%; background: #fff;}
+#groups #graph .blanc {width: 2.5%; float: left;}
+#groups #graph .intable {float: left; width: 30%; background: #fff; border: 0px; margin-bottom: 10px;}
+#groups #graph table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
+#groups #graph table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
+#groups #graph table tr .left {width: 100px; border-left: 2px solid #1C192B;}
+#groups #graph table tr .middle {width: 150px;}
+#groups #graph table tr .right {border-right: 2px solid #1C192B;}
+#groups #graph table .win {background-color: #fff;}
+#groups #graph table .lose {background-color: #ddd;}
+#groups #graph table .blanc {background-color: #F7F7F7; border: 0;}
+#groups #graph table .win .tm_result {background-color: #489CFF;}
+#groups #graph table .lose .tm_result {background-color: #BDBDBD;}
+#groups #graph table tr td {position: relative; padding: 0; border: 0; height: 60px;}
+#groups #graph table tr td img {height: 50px;}
+#groups #graph table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
+#groups #graph table tr td .tm_team {font-size: 15px;}
+#groups #graph table tr td .tm_score {font-size: 20px;}
+#groups #groups_exp {clear: both; clear: both; text-align: right; font-size: 14px;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
