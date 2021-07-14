@@ -24,7 +24,7 @@ address {
 
 /* table 초기화 */
 table {
-	text-align: center; border-collapse: collapse; background: #fff; border: 3px solid #1C192B;}
+	text-align: center; border-collapse: collapse; background: #fff; overflow: hidden; border-radius: 10px;}
 
 /* 표 효과 */
 th, td {padding: 3px; border: 0px; text-align: center;}

@@ -12,33 +12,34 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 버전 */
 #version {padding: 10px 0 0 0; text-align: right; color: #4a4a4a;}
 
-/* 팀페이지 */
-#teampage {margin: 10px 0 0 0;}
-#teampage h2 {font-size: 30px; margin-bottom: 10px;}
-#teampage table {width: 100%; overflow: hidden; border-radius: 10px; background: #fff;}
-#teampage table tr {}
-#teampage table .tp_teamname {font-size: 15px;}
-#teampage table .tp_teamname td:hover {background: none;}
-#teampage table tr td {width: 20%; margin: 5px; border-radius: 10px; border-color: #fff;}
-#teampage table tr td:hover {background-color: #ddd;}
-#teampage table tr td a {}
-#teampage table tr td a img {height: 60px;}
-
 /* 일정 */
 #schedule {margin: 30px 0 0 0;}
 #schedule h2 {font-size: 30px; margin-bottom: 10px;}
+#schedule table {width: 100%;}
+#schedule table tr th {width: 25%;}
+#schedule table tr td {overflow: hidden; border-right: 1px solid #ddd;}
+#schedule table tr td:nth-child(4) {border: 0;}
+#schedule table tr td .match {overflow: hidden;}
+#schedule table tr td .match:nth-child(1) {margin-bottom: 20px;}
+#schedule table tr td .match .match_no {font-size: 14px;}
+#schedule table tr td .match:nth-child(1) .match_no {margin-top: 5px;}
+#schedule table tr td .match .vs {float: left; width: 10%; line-height: 70px;}
+#schedule table tr td .match .team {float: left; width: 45%;}
+#schedule table tr td .match .team img {height: 50px;}
 
 /* 순위 */
 #ranking {margin: 30px 0 30px 0;}
 #ranking h2 {font-size: 30px; margin-bottom: 10px;}
-#ranking h3 {margin-bottom: 5px;}
-#ranking table {width: 100%; margin: 0 auto; border: 3px solid #1C192B;}
+#ranking table {width: 100%; margin: 0 auto; background: #fff;}
 #ranking table th {background-color: #1C192B; color: #DCDFE0; border: 0px;}
-#ranking table tr td {height: 60px;}
+#ranking table th:nth-child(7) {border-right: 1px solid #777;}
+#ranking table tr td {padding: 3px; border: 0px; height: 60px;}
+#ranking table tr .team {width: 12%;}
+#ranking table tr .score {width: 6%;}
+#ranking table tr td:nth-child(9) {border-left: 1px solid #1C192B;}
 #ranking table tr td img {height: 35px;}
-#ranking #sc_exp {margin-top: 10px; text-align: right; font-size: 14px;}
-#ranking #sc_exp .sc_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
-#ranking #sc_exp .sc_exp_text {border-right: 1px solid #bbb;}
+#ranking #reference {margin-top: 10px; text-align: right; font-size: 14px;}
+#ranking #reference .reference_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
