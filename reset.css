@@ -11,6 +11,10 @@ a:hover {color: none;}
 body, input, textarea, select, button, table {
     font-family: 'Noto Sans KR', sans-serif; color: #373a3c; font-weight: bold;}
 
+/* h2 폰트 초기화 */
+h2 {
+	color: #000000;}
+
 /* body, wrap 태그 초기화 */
 body {
 	background-color: #F7F7F7; font-weight: bold;}

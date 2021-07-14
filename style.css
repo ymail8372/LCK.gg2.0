@@ -17,7 +17,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #schedule h2 {font-size: 30px; margin-bottom: 10px;}
 #schedule table {width: 100%;}
 #schedule table tr th {width: 25%;}
-#schedule table tr td {overflow: hidden; border-right: 1px solid #ddd;}
+#schedule table tr td {overflow: hidden; border-right: 1px solid #aaa;}
 #schedule table tr td:nth-child(4) {border: 0;}
 #schedule table tr td .match {overflow: hidden;}
 #schedule table tr td .match:nth-child(1) {margin-bottom: 20px;}
