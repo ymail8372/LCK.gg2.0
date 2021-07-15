@@ -68,15 +68,19 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 포스트시즌 */
 #post_season {margin: 30px 0 0 0; overflow: hidden;}
 #post_season h2 {font-size: 30px; margin-bottom: 10px;}
-#post_season .space {float: left; width: 4%; height: 186px; text-align: center; line-height: 186px;}
-#post_season table {float: left; width: 22%; text-align: center;}
-#post_season table tr td {padding: 9px;}
-#post_season table .color_td {padding: 0;}
-#post_season table .lose .color_td .color {width: 5px; height: 63px; background-color: #BDBDBD;}
-#post_season table .win .color_td .color {width: 5px; height: 63px; background-color: #489CFF;}
-#post_season table tr td img {height: 40px;}
-#post_season table .lose td {background-color: #ddd;}
-#post_season table tr .score {font-size: 20px;}
+#post_season .blanc {float: left; width: 5%; text-align: center; line-height: 186px;}
+#post_season .blanc .blanc1 {width: 50%; float: left;}
+#post_season .blanc .blanc1 div {width: 100%;}
+#post_season div {float: left; width: 30%;}
+#post_season div table {width: 100%; text-align: center;}
+#post_season div table tr td {padding: 6px;}
+#post_season div table tr td img {height: 45px;}
+#post_season div table .color_td {padding: 0;}
+#post_season div table .lose .color_td .color {width: 5px; height: 63px; background-color: #BDBDBD;}
+#post_season div table .win .color_td .color {width: 5px; height: 63px; background-color: #489CFF;}
+#post_season div table .blanc {height: 70px; background: #F7F7F7;}
+#post_season div table .lose td {background-color: #ddd;}
+#post_season div table tr .score {font-size: 20px; width: 80px;}
 
 /* MVP 순위 */
 #MVP_ranking {margin: 30px 0 30px 0;}
