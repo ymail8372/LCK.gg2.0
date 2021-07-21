@@ -31,31 +31,27 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner table {width: 100%;}
 #winner table td {padding: 9px;}
 
-#winner .table1 {}
+#winner .table1 {overflow: hidden; border-radius: 0; border-top-left-radius: 15px; border-top-right-radius: 15px;}
 #winner .table1 .title th {}
 #winner .table1 tr th {}
 #winner .table1 tr td {text-align: left;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
-#winner .table1 tr .img .img_container {margin: 0 auto; width: 300px; border-radius: 10px;}
+#winner .table1 tr .img .img_container {margin: 0 auto; width: 200px; border-radius: 10px;}
 #winner .table1 tr .img .img_container:hover {background-color: #ddd;}
-#winner .table1 tr .img .img_container a img {height: 120px;}
+#winner .table1 tr .img .img_container a img {height: 100px;}
 #winner .table1 tr .blank {width: auto;}
 
-#winner .table2 {}
+#winner .table2 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 #winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
-
-#winner .table3 {}
-#winner .table3 tr th {width: 50%;}
-#winner .table3 tr td {}
 
 /* 토너먼트 */
 #tournament {overflow: hidden; margin: 30px 0 0 0;}
 #tournament h2 {font-size: 30px; margin-bottom: 10px;}
 #tournament .blanc {width: 2.5%; height: 100%; float: left;}
-#tournament table {float: left; width: 30%; margin: 0 auto; background: #fff; border: 0px;}
+#tournament table {float: left; width: 30%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
 #tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
 #tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
 #tournament table tr .left {width: 100px; border-left: 2px solid #1C192B;}
@@ -63,7 +59,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament table tr .right {border-right: 2px solid #1C192B;}
 #tournament table .win {background-color: #fff;}
 #tournament table .lose {background-color: #ddd;}
-#tournament table .blanc {background-color: #F7F7F7; border: 0;}
+#tournament table .blanc {border: 0;}
 #tournament table .win .tm_result {background-color: #489CFF;}
 #tournament table .lose .tm_result {background-color: #BDBDBD;}
 #tournament table tr td {position: relative; padding: 0; border: 0; height: 60px;}

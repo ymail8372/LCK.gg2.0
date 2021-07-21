@@ -29,25 +29,25 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner {margin: 30px 0 0 0;}
 #winner h2 {font-size: 30px; margin-bottom: 10px;}
 #winner table {width: 100%;}
-#winner table td { padding: 9px;}
+#winner table td {padding: 9px;}
 
-#winner .table1 {}
+#winner .table1 {overflow: hidden; border-radius: 0; border-top-left-radius: 15px; border-top-right-radius: 15px;}
 #winner .table1 .title th {}
 #winner .table1 tr th {}
 #winner .table1 tr td {text-align: left;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
-#winner .table1 tr .img .img_container {margin: 0 auto; width: 250px; border-radius: 10px;}
+#winner .table1 tr .img .img_container {margin: 0 auto; width: 200px; border-radius: 10px;}
 #winner .table1 tr .img .img_container:hover {background-color: #ddd;}
 #winner .table1 tr .img .img_container a img {height: 100px;}
 #winner .table1 tr .blank {width: auto;}
 
-#winner .table2 {}
+#winner .table2 {overflow: hidden; border-radius: 0;}
 #winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
 
-#winner .table3 {}
+#winner .table3 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 #winner .table3 tr th {width: 33%;}
 #winner .table3 tr td {}
 
