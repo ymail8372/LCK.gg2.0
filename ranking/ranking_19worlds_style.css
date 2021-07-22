@@ -30,6 +30,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner h2 {font-size: 30px; margin-bottom: 10px;}
 #winner table {width: 100%;}
 #winner table td {padding: 9px;}
+#winner table td .country {height: 15px; margin-left: 8px;}
 
 #winner .table1 {overflow: hidden; border-radius: 0; border-top-left-radius: 15px; border-top-right-radius: 15px;}
 #winner .table1 .title th {}
@@ -93,7 +94,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #playins table tr td:nth-child(6n+3) {width: 15%;}
 #playins table tr td:nth-child(6n) {width: 15%;}
 #playins table tr td img {height: 40px;}
-#playins #playins_exp {clear: both; text-align: right; font-size: 14px;}
+#playins #playins_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
 #playins #playins_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
