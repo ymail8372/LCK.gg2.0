@@ -36,6 +36,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table1 .title th {}
 #winner .table1 tr th {}
 #winner .table1 tr td {text-align: left;}
+#winner .table1 tr td .star {color: #FFE400;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
 #winner .table1 tr .img img {height: 130px;}
@@ -73,7 +74,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 0 0;}
+#groups {margin: 30px 0 30px 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
 #groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
 #groups table th {background-color: #1C192B; color: #DCDFE0;}
@@ -85,37 +86,6 @@ nav #menu a:hover {color: #DCDFE0;}
 #groups table tr td img {height: 40px;}
 #groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
-
-/* 플레이인 스테이지 */
-#playins1R {margin: 30px 0 0 0;}
-#playins1R h2 {font-size: 30px; margin-bottom: 10px;}
-#playins1R table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
-#playins1R table th {background-color: #1C192B; color: #DCDFE0;}
-#playins1R table tr td {padding: 3px; border: 0px; height: 60px;}
-#playins1R table tr td:nth-child(5n+3) {width: 15%;}
-#playins1R table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
-#playins1R table tr td img {height: 40px;}
-#playins1R #playins_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
-#playins1R #playins_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
-
-#playins2R {overflow: hidden; margin: 30px 0 30px 0;}
-#playins2R h2 {font-size: 30px; margin-bottom: 10px;}
-#playins2R table {float: left; width: 40%; background: #F7F7F7; margin-left: 5%; margin-right: 5%; border: 0;}
-#playins2R table th {background-color: #1C192B; color: #DCDFE0;}
-#playins2R table tr .left {width: 100px;}
-#playins2R table tr .middle {width: 250px;}
-#playins2R table .win {background-color: #fff;}
-#playins2R table .lose {background-color: #ddd;}
-#playins2R table .blanc {border: 0;}
-#playins2R table .win .tm_result {background-color: #489CFF;}
-#playins2R table .lose .tm_result {background-color: #BDBDBD;}
-#playins2R table tr td {position: relative; padding: 0; border: 0; height: 60px;}
-#playins2R table tr td img {height: 40px;}
-#playins2R table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
-#playins2R table tr td .tm_team {font-size: 15px;}
-#playins2R table tr td .tm_score {font-size: 20px;}
-#playins2R #playins_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
-#playins2R #playins_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}

@@ -36,6 +36,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table1 .title th {}
 #winner .table1 tr th {}
 #winner .table1 tr td {text-align: left;}
+#winner .table1 tr td .star {color: #FFE400;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
 #winner .table1 tr .img img {height: 130px;}
