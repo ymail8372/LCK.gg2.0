@@ -77,6 +77,8 @@ nav #menu a:hover {color: #DCDFE0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
 #groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
 #groups table th {background-color: #1C192B; color: #DCDFE0;}
+#groups table th:nth-child(4) {border-right: 1px solid #777;}
+#groups table th:nth-child(4n+1) {width: 5%;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
 #groups table tr td:nth-child(5n+3) {width: 15%;}
 #groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}

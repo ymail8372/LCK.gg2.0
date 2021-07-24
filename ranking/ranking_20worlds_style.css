@@ -75,8 +75,8 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 그룹 스테이지 */
 #groups {margin: 30px 0 0 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
-#groups table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
-#groups table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
+#groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#groups table th {background-color: #1C192B; color: #DCDFE0;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
 #groups table tr td:nth-child(5n+3) {width: 15%;}
 #groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
@@ -87,8 +87,8 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 플레이인 스테이지 */
 #playins {margin: 30px 0 30px 0;}
 #playins h2 {font-size: 30px; margin-bottom: 10px;}
-#playins table {width: 100%; margin: 0 auto; background: #fff; border: 3px solid #1C192B;}
-#playins table th {background-color: #1C192B; color: #DCDFE0; border: 0;}
+#playins table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#playins table th {background-color: #1C192B; color: #DCDFE0;}
 #playins table tr td {padding: 3px; border: 0px; height: 60px;}
 #playins table tr td:nth-child(6) {border-right: 1px solid #1C192B}
 #playins table tr td:nth-child(6n+3) {width: 15%;}
