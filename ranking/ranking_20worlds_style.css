@@ -67,7 +67,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament table .win .tm_result {background-color: #489CFF;}
 #tournament table .lose .tm_result {background-color: #BDBDBD;}
 #tournament table tr td {position: relative; padding: 0; border: 0; height: 60px;}
-#tournament table tr td img {height: 40px;}
+#tournament table tr td img {height: 45px;}
 #tournament table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
 #tournament table tr td .tm_team {font-size: 15px;}
 #tournament table tr td .tm_score {font-size: 20px;}
@@ -81,7 +81,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
 #groups table tr td:nth-child(5n+3) {width: 15%;}
 #groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
-#groups table tr td img {height: 40px;}
+#groups table tr td img {height: 45px;}
 #groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
@@ -94,7 +94,7 @@ nav #menu a:hover {color: #DCDFE0;}
 #playins table tr td:nth-child(6) {border-right: 1px solid #1C192B}
 #playins table tr td:nth-child(6n+3) {width: 15%;}
 #playins table tr td:nth-child(6n) {width: 15%;}
-#playins table tr td img {height: 40px;}
+#playins table tr td img {height: 45px;}
 #playins #playins_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
 #playins #playins_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
