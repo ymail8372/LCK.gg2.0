@@ -42,20 +42,24 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table1 tr .img img {height: 130px;}
 #winner .table1 tr .blank {width: auto;}
 
-#winner .table2 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table2 {overflow: hidden; border-radius: 0;}
 #winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
+
+#winner .table3 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table3 tr th {width: 100%;}
+#winner .table3 tr td {}
 
 /* 토너먼트 */
 #tournament {overflow: hidden; margin: 30px 0 0 0;}
 #tournament h2 {font-size: 30px; margin-bottom: 10px;}
 #tournament .blanc {width: 2.5%; height: 100%; float: left;}
-#tournament table {float: left; width: 30%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
+#tournament table {float: left; width: 47.5%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
 #tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
 #tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
-#tournament table tr .left {width: 100px; border-left: 2px solid #1C192B;}
-#tournament table tr .middle {width: 150px;}
+#tournament table tr .left {width: 150px; border-left: 2px solid #1C192B;}
+#tournament table tr .middle {width: 200px;}
 #tournament table tr .right {border-right: 2px solid #1C192B;}
 #tournament table .win {background-color: #fff;}
 #tournament table .lose {background-color: #ddd;}
@@ -70,18 +74,56 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 30px 0;}
+#groups {margin: 30px 0 0 0;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
-#groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#groups table {width: 70%; margin: 0 auto; background: #fff; border: 0;}
 #groups table th {background-color: #1C192B; color: #DCDFE0;}
-#groups table th:nth-child(4) {border-right: 1px solid #777;}
-#groups table th:nth-child(4n+1) {width: 5%;}
+#groups table th:nth-child(1) {width: 10%;}
+#groups table td:nth-child(2) {width: 20%;}
+#groups table td:nth-child(3) {width: 40%;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
-#groups table tr td:nth-child(5n+3) {width: 15%;}
-#groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
 #groups table tr td img {height: 45px;}
-#groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
-#groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+#groups #groups_exp {margin-top: 10px; text-align: right; font-size: 14px;}
+#groups #groups_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* 플레이인 스테이지 */
+#playins {margin: 30px 0 0 0; overflow: hidden;}
+#playins h2 {font-size: 30px; margin-bottom: 10px;}
+#playins table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
+#playins table:nth-child(2) {margin-right: 5%;}
+#playins table th {background-color: #1C192B; color: #DCDFE0;}
+#playins table tr td {padding: 3px; border: 0px; height: 60px;}
+#playins table tr td:nth-child(1) {width: 7%;}
+#playins table tr td:nth-child(3) {width: 20%;}
+#playins table tr td:nth-child(4) {width: 7%;}
+#playins table tr td:nth-child(5) {width: 7%;}
+#playins table tr td img {height: 45px;}
+#playins #playins_exp {clear: both; text-align: right; font-size: 14px;}
+#playins #playins_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* 플레이인 스테이지 토너먼트 */
+#playins_tournament {overflow: hidden; margin: 30px 0 30px 0;}
+#playins_tournament h2 {font-size: 30px; margin-bottom: 10px;}
+#playins_tournament .blanc {width: 2.5%; height: 100%; float: left;}
+#playins_tournament table {float: left; width: 47.5%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
+#playins_tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
+#playins_tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
+#playins_tournament table tr .left {width: 150px; border-left: 2px solid #1C192B;}
+#playins_tournament table tr .middle {width: 200px;}
+#playins_tournament table tr .right {border-right: 2px solid #1C192B;}
+#playins_tournament table .win {background-color: #fff;}
+#playins_tournament table .lose {background-color: #ddd;}
+#playins_tournament table .blanc {border: 0;}
+#playins_tournament table .win .tm_result {background-color: #489CFF;}
+#playins_tournament table .lose .tm_result {background-color: #BDBDBD;}
+#playins_tournament table tr td {position: relative; padding: 0; border: 0; height: 60px;}
+#playins_tournament table tr td img {height: 45px;}
+#playins_tournament table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
+#playins_tournament table tr td .tm_team {font-size: 15px;}
+#playins_tournament table tr td .tm_score {font-size: 20px;}
+#playins_tournament #third_place_match {margin-top: 80px;}
+#playins_tournament #playins_tournament_exp {clear: both; text-align: right; font-size: 14px;}
+#playins_tournament #playins_tournament_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}

@@ -42,20 +42,24 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner .table1 tr .img img {height: 130px;}
 #winner .table1 tr .blank {width: auto;}
 
-#winner .table2 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table2 {overflow: hidden; border-radius: 0;}
 #winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
+
+#winner .table3 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table3 tr th {width: 100%;}
+#winner .table3 tr td {}
 
 /* 토너먼트 */
 #tournament {overflow: hidden; margin: 30px 0 0 0;}
 #tournament h2 {font-size: 30px; margin-bottom: 10px;}
 #tournament .blanc {width: 2.5%; height: 100%; float: left;}
-#tournament table {float: left; width: 30%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
+#tournament table {float: left; width: 47.5%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
 #tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
 #tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
-#tournament table tr .left {width: 100px; border-left: 2px solid #1C192B;}
-#tournament table tr .middle {width: 150px;}
+#tournament table tr .left {width: 150px; border-left: 2px solid #1C192B;}
+#tournament table tr .middle {width: 200px;}
 #tournament table tr .right {border-right: 2px solid #1C192B;}
 #tournament table .win {background-color: #fff;}
 #tournament table .lose {background-color: #ddd;}
@@ -69,18 +73,33 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament table tr td .tm_score {font-size: 20px;}
 #tournament #third_place_match {margin-top: 80px;}
 
+/* 럼블 스테이지 */
+#rumble {margin: 30px 0 0 0;}
+#rumble h2 {font-size: 30px; margin-bottom: 10px;}
+#rumble table {width: 70%; margin: 0 auto; background: #fff; border: 0;}
+#rumble table th {background-color: #1C192B; color: #DCDFE0;}
+#rumble table th:nth-child(1) {width: 10%;}
+#rumble table td:nth-child(2) {width: 20%;}
+#rumble table td:nth-child(3) {width: 40%;}
+#rumble table tr td {padding: 3px; border: 0px; height: 60px;}
+#rumble table tr td img {height: 45px;}
+#rumble #playins_exp {margin-top: 10px; text-align: right; font-size: 14px;}
+#rumble #playins_exp .playins_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 30px 0;}
+#groups {margin: 30px 0 30px 0; overflow: hidden;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
-#groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#groups table {width: 32%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
+#groups table:nth-child(2) {margin-right: 2%;}
+#groups table:nth-child(3) {margin-right: 2%;}
 #groups table th {background-color: #1C192B; color: #DCDFE0;}
-#groups table th:nth-child(4) {border-right: 1px solid #777;}
-#groups table th:nth-child(4n+1) {width: 5%;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
-#groups table tr td:nth-child(5n+3) {width: 15%;}
-#groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
+#groups table tr td:nth-child(1) {width: 7%;}
+#groups table tr td:nth-child(3) {width: 20%;}
+#groups table tr td:nth-child(4) {width: 7%;}
+#groups table tr td:nth-child(5) {width: 7%;}
 #groups table tr td img {height: 45px;}
-#groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
+#groups #groups_exp {clear: both; text-align: right; font-size: 14px;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* footer */
