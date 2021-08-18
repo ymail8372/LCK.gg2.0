@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+/* nav */
+nav {height: 40px; overflow: hidden; background-color: #1C192B;}
+nav #title {display: table; float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 {display: table-cell; vertical-align: middle;}
+nav #title h1 a {color: #DCDFE0; font-size: 26px;}
+nav #menu {float: left; height: 40px;}
+nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
+nav #menu a:hover {color: #DCDFE0;}
+
+/* 시즌표 */
+#season_table table {width: 100%; margin-top: 30px;}
+#season_table table a {color: #aaa}
+#season_table table a:hover {color: #373a3c;}
+#season_table table td {padding: 5px; width: 8.333%;}
+#season_table table .title1_th {width: 25%;}
+#season_table table .title1_th img {height: 50px; display: block; margin: 10px auto;}
+#season_table table .table1_td td:nth-child(3n) {border-right: 1px solid #1C192B;}
+#season_table table .table1_td td:last-child {border-right: 0;}
+#season_table table .table2 th {border-right: 1px solid #1C192B;}
+#season_table table .table2 th .img_container {height: 100%; line-height: 35px; float: left; padding: 0 10px 0 50px;}
+#season_table table .table2 th .img_container img {vertical-align: middle; height: 30px;}
+#season_table table .table2 th .name_container {height: 100%; line-height: 35px; float: left;}
+#season_table table .table2 th img {height: 50px;}
+#season_table table .now_season {color: #373a3c;}
+
+/* 우승 */
+#winner {margin: 30px 0 0 0;}
+#winner h2 {font-size: 30px; margin-bottom: 10px;}
+#winner table {width: 100%;}
+#winner table td {padding: 9px;}
+
+#winner .table1 {overflow: hidden; border-radius: 0; border-top-left-radius: 15px; border-top-right-radius: 15px;}
+#winner .table1 tr td {text-align: left;}
+#winner .table1 tr td .star {color: #FFE400;}
+#winner .table1 tr:nth-child(3) th {width: 20%;}
+#winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
+#winner .table1 tr .img .team_name {font-size: 20px;}
+#winner .table1 tr .img img {height: 80px;}
+#winner .table1 tr .blank {width: auto;}
+#winner .table1 td .country {height: 15px; margin-left: 8px;}
+
+#winner .table2 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
+#winner .table2 tr th img {width: 35px;}
+#winner .table2 tr td {width: 20%;}
+#winner .table2 td div {height: 25px; line-height: 25px;}
+#winner .table2 td div .team {height: 25px; margin-left: 8px; vertical-align: middle;}
+
+/* 토너먼트 */
+#tournament {overflow: hidden; margin: 30px 0 0 0;}
+#tournament h2 {font-size: 30px; margin-bottom: 10px;}
+#tournament .blanc {width: 2.5%; height: 100%; float: left;}
+#tournament table {float: left; width: 47.5%; margin: 0 auto; background: #F7F7F7; border: 0px; border-radius: 0;}
+#tournament table th {background-color: #1C192B; color: #DCDFE0; border: 2px solid #1C192B;}
+#tournament table tr {border-bottom: 2px solid #1C192B; border-top: 2px solid #1C192B;}
+#tournament table tr .left {width: 150px; border-left: 2px solid #1C192B;}
+#tournament table tr .middle {width: 200px;}
+#tournament table tr .right {border-right: 2px solid #1C192B;}
+#tournament table .win {background-color: #fff;}
+#tournament table .lose {background-color: #ddd;}
+#tournament table .blanc {border: 0;}
+#tournament table .win .tm_result {background-color: #489CFF;}
+#tournament table .lose .tm_result {background-color: #BDBDBD;}
+#tournament table tr td {position: relative; padding: 0; border: 0; height: 60px;}
+#tournament table tr td img {width: 60px;}
+#tournament table tr td .tm_result {position: absolute; top: 0; left: 0; height: 100%; width: 5px;}
+#tournament table tr td .tm_team {font-size: 15px;}
+#tournament table tr td .tm_score {font-size: 20px;}
+#tournament #third_place_match {margin-top: 80px;}
+
+/* 그룹 스테이지 */
+#groups {margin: 30px 0 30px 0; overflow: hidden;}
+#groups h2 {font-size: 30px; margin-bottom: 10px;}
+#groups table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
+#groups table:nth-child(2) {margin-right: 5%;}
+#groups table th {background-color: #1C192B; color: #DCDFE0;}
+#groups table tr td {padding: 3px; border: 0px; height: 60px;}
+#groups table tr td:nth-child(1) {width: 7%;}
+#groups table tr td:nth-child(3) {width: 20%;}
+#groups table tr td:nth-child(4) {width: 7%;}
+#groups table tr td:nth-child(5) {width: 7%;}
+#groups table tr td img {width: 60px;}
+#groups #groups_exp {clear: both; text-align: right; font-size: 14px;}
+#groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
+
+/* footer */
+footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
+footer address {padding: 15px 0;}
+footer p {padding: 0 0 10px 0;}

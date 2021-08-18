@@ -33,23 +33,20 @@ nav #menu a:hover {color: #DCDFE0;}
 #winner table td .country {height: 15px; margin-left: 8px;}
 
 #winner .table1 {overflow: hidden; border-radius: 0; border-top-left-radius: 15px; border-top-right-radius: 15px;}
-#winner .table1 .title th {}
-#winner .table1 tr th {}
 #winner .table1 tr td {text-align: left;}
 #winner .table1 tr td .star {color: #FFE400;}
+#winner .table1 tr:nth-child(3) th {width: 20%;}
 #winner .table1 tr .img {text-align: center; border-bottom: 1px solid #1C192B;}
 #winner .table1 tr .img .team_name {font-size: 20px;}
-#winner .table1 tr .img img {height: 130px;}
+#winner .table1 tr .img img {height: 90px;}
 #winner .table1 tr .blank {width: auto;}
 
 #winner .table2 {overflow: hidden; border-radius: 0;}
-#winner .table2 tr th {}
 #winner .table2 tr th img {width: 35px;}
 #winner .table2 tr td {width: 20%;}
 
 #winner .table3 {overflow: hidden; border-radius: 0; border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;}
 #winner .table3 tr th {width: 100%;}
-#winner .table3 tr td {}
 
 /* 토너먼트 */
 #tournament {overflow: hidden; margin: 30px 0 0 0;}
@@ -74,24 +71,28 @@ nav #menu a:hover {color: #DCDFE0;}
 #tournament #third_place_match {margin-top: 80px;}
 
 /* 그룹 스테이지 */
-#groups {margin: 30px 0 0 0;}
+#groups {margin: 30px 0 30px 0; overflow: hidden;}
 #groups h2 {font-size: 30px; margin-bottom: 10px;}
-#groups table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#groups table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0; margin-bottom: 10px;}
+#groups table:nth-child(2) {margin-right: 5%; margin-bottom: 3%;}
+#groups table:nth-child(4) {margin-right: 5%;}
 #groups table th {background-color: #1C192B; color: #DCDFE0;}
 #groups table tr td {padding: 3px; border: 0px; height: 60px;}
-#groups table tr td:nth-child(5n+3) {width: 15%;}
-#groups table tr td:nth-child(5) {border-right: 1px solid #1C192B;}
+#groups table tr td:nth-child(1) {width: 7%;}
+#groups table tr td:nth-child(3) {width: 20%;}
+#groups table tr td:nth-child(4) {width: 7%;}
+#groups table tr td:nth-child(5) {width: 7%;}
 #groups table tr td img {height: 45px;}
-#groups #groups_exp {margin-top: 10px; clear: both; text-align: right; font-size: 14px;}
+#groups #groups_exp {clear: both; text-align: right; font-size: 14px;}
 #groups #groups_exp .groups_exp_color {display: inline-block; width: 15px; height: 15px; margin-left: 10px;}
 
 /* 플레이인 스테이지 */
 #playins {margin: 30px 0 30px 0;}
 #playins h2 {font-size: 30px; margin-bottom: 10px;}
-#playins table {width: 100%; margin: 0 auto; background: #fff; border: 0;}
+#playins table {width: 47.5%; float: left; margin: 0 auto; background: #fff; border: 0;}
+#playins table:nth-child(2) {margin: 0 5% 10px 0;}
 #playins table th {background-color: #1C192B; color: #DCDFE0;}
 #playins table tr td {padding: 3px; border: 0px; height: 60px;}
-#playins table tr td:nth-child(6) {border-right: 1px solid #1C192B}
 #playins table tr td:nth-child(6n+3) {width: 15%;}
 #playins table tr td:nth-child(6n) {width: 15%;}
 #playins table tr td img {height: 45px;}
