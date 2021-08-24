@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+/* nav */
+nav {height: 40px; overflow: hidden; background-color: #1C192B;}
+nav #title {display: table; float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 {display: table-cell; vertical-align: middle;}
+nav #title h1 a {color: #DCDFE0; font-size: 26px;}
+nav #menu {float: left; height: 40px;}
+nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
+nav #menu a:hover {color: #DCDFE0;}
+
+/* 챔피언 표 */
+#champion_table {margin: 30px 0 30px 0;}
+#champion_table table {margin: 0 auto; width: 100%;}
+#champion_table table tr td {border: 1px solid #444; height: 40px;}
+
+/* footer */
+footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
+footer address {padding: 15px 0;}
+footer p {padding: 0 0 10px 0;}

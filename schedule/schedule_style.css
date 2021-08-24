@@ -9,11 +9,18 @@ nav #menu {float: left; height: 40px;}
 nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
 nav #menu a:hover {color: #DCDFE0;}
 
-/* 리그 선택 */
-#league {width: 100%; height: 100px; border: 2px solid #555;}
+/* 달 및 주차 선택 */
+#months {width: 100%; height: 37px; overflow: hidden; margin-top: 40px; border-top: 2px solid #c2c5c9; border-bottom: 2px solid #c2c5c9;}
+#months a {font-size: 20px; display: block; float: left; width: 8.3%; height: 35px; line-height: 35px; text-align: center;}
+#months a:hover {border-bottom: 2px solid #1C192B;}
+
+#weeks {width: 100%; height: 50px; border: 2px solid #555; overflow: hidden;}
+#weeks div {float: left; width: 20%;}
+#weeks div input {font-size: 30px; display: block;}
 
 /* 일정표 */
-#calendar {width: 100%; height: 1000px; border: 2px solid #555;}
+#calendar {width: 100%; height: 1000px; border: 2px solid #555; margin-bottom: 30px;}
+#calendar div {display: none;}
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
