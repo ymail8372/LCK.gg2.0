@@ -21,6 +21,21 @@ nav #menu a:hover {color: #DCDFE0;}
 /* 일정표 */
 #calendar {width: 100%; height: 1000px; margin-bottom: 30px;}
 #calendar div {display: none;}
+#calendar div table {width: 100%; border-radius: 0; background: #F7F7F7;}
+#calendar div table th {background: #fafbfe; color: #1C192B; text-align: left; font-style: italic; font-size: 20px;}
+#calendar div table td {overflow: hidden; border: 1px solid #c2c5c9; height: 40px;}
+#calendar div table td span {display: block; float: left;}
+#calendar div table .date {width: 10%;}
+#calendar div table .match {width: 75%;}
+#calendar div table .match .time {padding: 0 160px 0 20px; }
+#calendar div table .match .team_logo {width: 5%;}
+#calendar div table .match .team_logo img {height: 30px; vertical-align: middle;}
+#calendar div table .match .team_name {width: 15%; }
+#calendar div table .match .team_name:nth-child(2n) {text-align: right; padding-right: 10px;}
+#calendar div table .match .team_name:nth-child(3n) {text-align: left; padding-left: 10px;}
+#calendar div table .match .vs {width: 5%;}
+#calendar div table .match .score {width: 7%;}
+#calendar div table .match .matchInfo {width: 15%; padding-left: 100px;}
 
 /* footer */
 footer {width: 100%; border-top: 1px solid #ccc; text-align: center; font-size: 13px;}
