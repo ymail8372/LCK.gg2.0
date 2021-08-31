@@ -6,8 +6,8 @@
 	<script src="./schedule_js.js"></script>
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
-	<link rel="stylesheet" href="./schedule_style.css">
 	<link rel="stylesheet" href="../reset.css">
+	<link rel="stylesheet" href="./schedule_style.css">
 </head>
 <body>
 	<!-- nav -->
@@ -16,8 +16,8 @@
 			<h1><a href="../index.html">LCK.gg</a></h1>
 		</div>
 		<div id="menu">
-			<a href="" style="color: #DCDFE0;">일정</a>
-			<a href="">순위</a>
+			<a href="#" style="color: #DCDFE0;">일정</a>
+			<a href="../placing/placing.html">순위</a>
 			<a href="">챔피언 통계</a>
 			<a href="../ranking/ranking_21summer.html">역대 대회</a>
 			<a href="">패치 노트</a>
@@ -34,17 +34,10 @@
 			<a id="month_menu6" href="#" onclick="monthClick(6)">6월</a>
 			<a id="month_menu7" href="#" onclick="monthClick(7)">7월</a>
 			<a id="month_menu8" href="#" onclick="monthClick(8)">8월</a>
-			<a id="month_menu9" href="#" onclick="monthClick(9)" style="border-bottom: 2px solid #1C192B;">9월</a>
+			<a id="month_menu9" href="#" onclick="monthClick(9)" style="border-bottom: 2px solid #fff;">9월</a>
 			<a id="month_menu10" href="#" onclick="monthClick(10)">10월</a>
 			<a id="month_menu11" href="#" onclick="monthClick(11)">11월</a>
 			<a id="month_menu12" href="#" onclick="monthClick(12)">12월</a>
-		</div>
-		<div id="weeks">
-			<a id="week_menu1" href="#" onclick="weekClick(1)">1주차</a>
-			<a id="week_menu2" href="#" onclick="weekClick(2)">2주차</a>
-			<a id="week_menu3" href="#" onclick="weekClick(3)">3주차</a>
-			<a id="week_menu4" href="#" onclick="weekClick(4)">4주차</a>
-			<a id="week_menuTotal" href="#" onclick="weekClick('Total')" style="border-bottom: 2px solid #1C192B;">모든주차</a>
 		</div>
 		<div id="calendar">
 			<div class="month" id="month1">
@@ -90,131 +83,314 @@
 				<div class="week4">month7_week4</div>
 			</div>
 			<div class="month" id="month8">
-				<div class="week1">month8_week1</div>
-				<div class="week2">month8_week2</div>
-				<div class="week3">month8_week3</div>
-				<div class="week4">month8_week4</div>
+				<div class="week1" style="display: block;">
+					<table>
+						<tr>
+							<td class="date" rowspan="2">8/1 (일)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">농심 레드포스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="score">2 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/HLE.png"></span>
+								<span class="team_name lose">환화생명e스포츠</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name win">담원 기아</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="score">2 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/KT.png"></span>
+								<span class="team_name lose">kt 롤스터</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/5 (목)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name lose">프레딧 브리온</span>
+								<span class="team_logo"><img src="../img/team/2021summer/BRO.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="team_name win">담원 기아</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name lose">환화생명e스포츠</span>
+								<span class="team_logo"><img src="../img/team/2021summer/HLE.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="team_name win">리브 샌드박스</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/6 (금)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name lose">DRX</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DRX.png"></span>
+								<span class="score">1 : 3</span>
+								<span class="team_logo"><img src="../img/team/2021summer/KT.png"></span>
+								<span class="team_name win">kt 롤스터</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name win">T1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="score">2 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/GEN.png"></span>
+								<span class="team_name lose">젠지</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/7 (토)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name lose">농심 레드포스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/AF.png"></span>
+								<span class="team_name win">아프리카 프릭스</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name win">리브 샌드박스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="score">2 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/BRO.png"></span>
+								<span class="team_name lose">프레딧 브리온</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/8 (일)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name lose">젠지</span>
+								<span class="team_logo"><img src="../img/team/2021summer/GEN.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="team_name win">담원 기아</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name win">T1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="score">2 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DRX.png"></span>
+								<span class="team_name lose">DRX</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/12 (목)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">아프리카 프릭스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/AF.png"></span>
+								<span class="score">2 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/HLE.png"></span>
+								<span class="team_name lose">환화생명e스포츠</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name lose">리브 샌드박스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="score">1 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/KT.png"></span>
+								<span class="team_name win">kt 롤스터</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/13 (금)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">젠지</span>
+								<span class="team_logo"><img src="../img/team/2021summer/GEN.png"></span>
+								<span class="score">2 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/BRO.png"></span>
+								<span class="team_name lose">프레딧 브리온</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name lose">DRX</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DRX.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="team_name win">농심 레드포스</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/14 (토)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">담원 기아</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="score">2 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="team_name lose">리브 샌드박스</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name lose">kt 롤스터</span>
+								<span class="team_logo"><img src="../img/team/2021summer/KT.png"></span>
+								<span class="score">1 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/AF.png"></span>
+								<span class="team_name win">아프리카 프릭스</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="2">8/15 (일)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">환화생명e스포츠</span>
+								<span class="team_logo"><img src="../img/team/2021summer/HLE.png"></span>
+								<span class="score">2 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="team_name lose">T1</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="match">
+								<span class="time">20:00</span>
+								<span class="team_name lose">농심 레드포스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="score">0 : 2</span>
+								<span class="team_logo"><img src="../img/team/2021summer/GEN.png"></span>
+								<span class="team_name win">젠지</span>
+								<span class="matchInfo">정규시즌 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="1">8/18 (수)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">농심 레드포스</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="score">3 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/AF.png"></span>
+								<span class="team_name lose">아프리카 프릭스</span>
+								<span class="matchInfo">플레이오프 1R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="1">8/19 (목)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">T1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="score">3 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="team_name lose">리브 샌드박스</span>
+								<span class="matchInfo">플레이오프 1R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="1">8/21 (토)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">담원 기아</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="score">3 : 0</span>
+								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
+								<span class="team_name lose">농심 레드포스</span>
+								<span class="matchInfo">플레이오프 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="1">8/22 (일)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name lose">젠지</span>
+								<span class="team_logo"><img src="../img/team/2021summer/GEN.png"></span>
+								<span class="score">1 : 3</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="team_name win">T1</span>
+								<span class="matchInfo">플레이오프 2R</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date" rowspan="1">8/28 (토)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name win">담원 기아</span>
+								<span class="team_logo"><img src="../img/team/2021summer/DK.png"></span>
+								<span class="score">3 : 1</span>
+								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
+								<span class="team_name lose">T1</span>
+								<span class="matchInfo">파이널</span>
+							</td>
+						</tr>
+						<tr>
+							<td class="date today" rowspan="1">8/31 (화)</td>
+							<td class="match">
+								<span class="time">17:00</span>
+								<span class="team_name">환화생명e스포츠</span>
+								<span class="team_logo"><img src="../img/team/2021summer/HLE.png"></span>
+								<span class="vs">vs</span>
+								<span class="team_logo"><img src="../img/team/2021summer/LSB.png"></span>
+								<span class="team_name">리브 샌드박스</span>
+								<span class="matchInfo">선발전 1R</span>
+							</td>
+						</tr>
+					</table>
+				</div>
 			</div>
 			<div class="month" id="month9" style="display: block;">
 				<div class="week1" style="display: block;">
 					<table>
 						<tr>
-							<th colspan="2">1주차</th>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/1</td>
+							<td class="date" rowspan="1">9/1 (수)</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">농심 레드포스</span>
 								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
 								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 1R 승자</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">선발전 1R 우승팀</span>
 								<span class="matchInfo">선발전 2R</span>
 							</td>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/2</td>
+							<td class="date" rowspan="1">9/2 (목)</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">T1</span>
 								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
 								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
-								<span class="matchInfo">선발전 3R</span>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="week2" style="display: block;">
-					<table>
-						<tr>
-							<th colspan="2">2주차</th>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/1</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">농심 레드포스</span>
-								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
-							</td>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/2</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">T1</span>
-								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
-								<span class="matchInfo">선발전 3R</span>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="week3" style="display: block;">
-					<table>
-						<tr>
-							<th colspan="2">3주차</th>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/1</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">농심 레드포스</span>
-								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
-							</td>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/2</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">T1</span>
-								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
-								<span class="matchInfo">선발전 3R</span>
-							</td>
-						</tr>
-					</table>
-				</div>
-				<div class="week4" style="display: block;">
-					<table style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
-						<tr>
-							<th colspan="2">4주차</th>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/1</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">농심 레드포스</span>
-								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
-							</td>
-						</tr>
-						<tr>
-							<td class="date" rowspan="1">9/2</td>
-							<td class="match">
-								<span class="time">17:00</span>
-								<span class="team_name">T1</span>
-								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">선발전 2R 우승팀</span>
 								<span class="matchInfo">선발전 3R</span>
 							</td>
 						</tr>
@@ -228,26 +404,26 @@
 							<th colspan="2">1주차</th>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/1</td>
+							<td class="date" rowspan="2">9/1</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">농심 레드포스</span>
 								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
 								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
+								<span class="matchInfo">정규시즌 2R</span>
 							</td>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/2</td>
+							<td class="date" rowspan="2">9/2</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">T1</span>
 								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">정규시즌 2R 승자</span>
 								<span class="matchInfo">선발전 3R</span>
 							</td>
 						</tr>
@@ -259,26 +435,26 @@
 							<th colspan="2">2주차</th>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/1</td>
+							<td class="date" rowspan="2">9/1</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">농심 레드포스</span>
 								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
 								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
+								<span class="matchInfo">정규시즌 2R</span>
 							</td>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/2</td>
+							<td class="date" rowspan="2">9/2</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">T1</span>
 								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">정규시즌 2R 승자</span>
 								<span class="matchInfo">선발전 3R</span>
 							</td>
 						</tr>
@@ -290,26 +466,26 @@
 							<th colspan="2">3주차</th>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/1</td>
+							<td class="date" rowspan="2">9/1</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">농심 레드포스</span>
 								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
 								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
+								<span class="matchInfo">정규시즌 2R</span>
 							</td>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/2</td>
+							<td class="date" rowspan="2">9/2</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">T1</span>
 								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">정규시즌 2R 승자</span>
 								<span class="matchInfo">선발전 3R</span>
 							</td>
 						</tr>
@@ -321,26 +497,26 @@
 							<th colspan="2">4주차</th>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/1</td>
+							<td class="date" rowspan="2">9/1</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">농심 레드포스</span>
 								<span class="team_logo"><img src="../img/team/2021summer/NS.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
 								<span class="team_name">선발전 1R 승자</span>
-								<span class="matchInfo">선발전 2R</span>
+								<span class="matchInfo">정규시즌 2R</span>
 							</td>
 						</tr>
 						<tr>
-							<td class="date" rowspan="1">9/2</td>
+							<td class="date" rowspan="2">9/2</td>
 							<td class="match">
 								<span class="time">17:00</span>
 								<span class="team_name">T1</span>
 								<span class="team_logo"><img src="../img/team/2021summer/T1.png"></span>
-								<span class="vs">vs</span>
-								<span class="team_logo"><img src=""></span>
-								<span class="team_name">선발전 2R 승자</span>
+								<span class="score">score</span>
+								<span class="team_logo"><img src="../img/team/2021summer/.png"></span>
+								<span class="team_name">정규시즌 2R 승자</span>
 								<span class="matchInfo">선발전 3R</span>
 							</td>
 						</tr>

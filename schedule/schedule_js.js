@@ -15,9 +15,9 @@ function monthClick(value) {
 		}
 	}
 	// 선택한 month 나타남
-	document.getElementById(idMenuName).style.borderBottom = '2px solid #1C192B';
+	document.getElementById(idMenuName).style.borderBottom = '2px solid #fff';
 	document.getElementById(idName).style.display = 'block';
-	weekClick('Total')
+	// weekClick('Total')
 
 	// border-bottom 없앰
 	document.getElementById(prevMonth).style.removeProperty('border-bottom');
@@ -25,11 +25,11 @@ function monthClick(value) {
 	// prevMonth 갱신
 	prevMonth = "month_menu" + value;
 
-	// week border-radius 추가
-	document.querySelector('#' + idName + ' .week4 table').style.borderBottomLeftRadius = '15px';
-	document.querySelector('#' + idName + ' .week4 table').style.borderBottomRightRadius = '15px';
+	// // week border-radius 추가
+	// document.querySelector('#' + idName + ' .week4 table').style.borderBottomLeftRadius = '15px';
+	// document.querySelector('#' + idName + ' .week4 table').style.borderBottomRightRadius = '15px';
 };
-
+/*
 var prevWeek = "week_menuTotal";
 
 function weekClick(value) {
@@ -39,16 +39,16 @@ function weekClick(value) {
 	
 	// 모든 주차 선택할 경우
 	if (value == 'Total') {
-		for(let i = 1; i <= 4; i ++) {
+		for(let i = 1; i <= 5; i ++) {
 			ClassName = "week" + i;
 			document.querySelector('#' + nowMonth + ' .' + ClassName).style.display = 'block';
 		}
-		document.querySelector('#' + nowMonth + ' .week4 table').style.borderBottomLeftRadius = '15px';
-		document.querySelector('#' + nowMonth + ' .week4 table').style.borderBottomRightRadius = '15px';
+		document.querySelector('#' + nowMonth + ' .week5 table').style.borderBottomLeftRadius = '15px';
+		document.querySelector('#' + nowMonth + ' .week5 table').style.borderBottomRightRadius = '15px';
 	}
 	// 특정 주차 선택할 경우
 	else{
-		for(let i = 1; i <= 4; i ++) {
+		for(let i = 1; i <= 5; i ++) {
 			if (value != i) {
 				delClassName = "week" + i;
 				document.querySelector('#' + nowMonth + ' .' + delClassName).style.display = 'none';
@@ -69,3 +69,4 @@ function weekClick(value) {
 	// prevWeek 업데이트
 	prevWeek = "week_menu" + value;
 }
+*/
