@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+/* nav */
+nav {height: 40px; overflow: hidden; background-color: #1C192B;}
+nav #title {display: table; float: left; width: 200px; height: 40px; text-align: center;}
+nav #title h1 {display: table-cell; vertical-align: middle;}
+nav #title h1 a {color: #DCDFE0; font-size: 26px;}
+nav #menu {float: left; height: 40px;}
+nav #menu a {color: #aaa; height: 40px; line-height: 40px; font-size: 20px; padding: 0 20px;}
+nav #menu a:hover {color: #DCDFE0;}
+
+/* 팀 순위표 */
+#placeTable_team {margin-top: 30px;}
+#placeTable_team h2 {font-size: 30px; margin-bottom: 10px;}
+#placeTable_team table {width: 100%;}
+#placeTable_team table th {}
+#placeTable_team table tr {border-bottom: 1px solid #c2c5c9;}
+#placeTable_team table tr:last-child {border: 0;}
+#placeTable_team table th:nth-child(1) {width: 90px;}
+#placeTable_team table th:nth-child(2) {width: 280px;}
+#placeTable_team table th:nth-child(3) {width: 90px;}
+#placeTable_team table th:nth-child(4) {width: 90px;}
+#placeTable_team table th:nth-child(5) {width: 160px;}
+#placeTable_team table th:nth-child(6) {width: 90px;}
+#placeTable_team table th:nth-child(7) {width: 90px;}
+#placeTable_team table th:nth-child(8) {width: 150px;}
+
+#placeTable_team table td {padding: 5px;}
+#placeTable_team table td:nth-child(2) {width: 80px;}
+#placeTable_team table td:nth-child(3) {width: 160px;}
+
+#placeTable_team table td img {height: 46px;}
+
+/* 선수 순위표 */
+#placeTable_player {margin-top: 30px;}
+#placeTable_player h2 {font-size: 30px; margin-bottom: 10px;}
